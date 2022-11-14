@@ -50,6 +50,10 @@ section {
   transition: all 0.75s;
 }
 
+.player--1 {
+  background-color: #d8728f;
+}
+
 /* ELEMENTS */
 .name {
   position: relative;
@@ -137,7 +141,7 @@ section {
   top: 40px;
 }
 .btn--roll {
-  top: 250px;
+  top: 240px;
 }
 .btn--hold {
   top: 300px;
