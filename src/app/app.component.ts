@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  ScoreP1: number = 0;
+  ScoreP2: number = 0;
+  showDice: boolean = false;
 }
