@@ -17,9 +17,9 @@
   </section>
 
   <div *ngIf="showDice">
-    <img src="../Asset/Images/dice-1.png" alt="Playing dice" class="dice" />
+    <img [src]="imgPath" alt="Playing dice" class="dice" />
   </div>
   <button class="btn btn--new">🔄 New game</button>
-  <button class="btn btn--roll">🎲 Roll dice</button>
+  <button class="btn btn--roll" (click)="rollDice()">🎲 Roll dice</button>
   <button class="btn btn--hold">📥 Hold</button>
 </main>
